@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mysection.css">
+</head>
+<body>
+    <!-- This is my project -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-logo">
+                <a href="./index.html" class="logo-link link">
+                    <svg class="logo-icon icon">
+                        <use href="./images/icon.svg#icon-blocks"></use>
+                    </svg>
+                    fresh harvest box
+                </a>
+                <button type="button" class="toggle-menu open-menu">
+                    <svg class="icon-close icon">
+                        <use href="./images/icon.svg#icon-close"></use>
+                    </svg>
+                    <svg class="icon-fries icon">
+                        <use href="./images/icon.svg#icon-fries"></use>
+                    </svg>
+                </button>
+            </div>
+            <nav class="nav-box menu-box">
+                <ul class="nav-menu list">
+                    <li><a href="#how-it-work" class="pages link">How It Works</a></li>
+                    <li><a href="#fruits" class="pages link">Fruits</a></li>
+                    <li><a href="#Contacts" class="pages link">Contacts</a></li>
+                </ul>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="bag-icon link">
+                    <svg class="icon-bag icon">
+                        <use href="./images/icon.svg#icon-bag"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container section-container">
+            <section class="hero">
+                <div class="hero-box">
+                    <p class="hero-title">
+                        fresh harvest box<br />
+                        is your one-stop place for a delicious fruit basket
+                    </p>
+                        <img
+                        src="./images/hero-section/hero-lady-mobile.jpg"  
+                        srcset="
+                        ./images/hero-section/hero-lady-mobile.jpg 375w, 
+                        ./images/hero-section/hero-lady-tablet.png 768w,
+                        ./images/hero-section/hero-lady-desktop.jpg  1280w"
+                        alt="fruit lady" 
+                        class="hero-image"
+                        />
+                    <button class="hero-shop-now">shop<br>now</button>
+                </div>
+                <div class="hero-details">
+                    <div class="hero-left">
+                        <p class="description">Our expertly curated fruit baskets are made with the freshest, highest quality fruits available. Whether you are looking for a healthy snack or a gift for a loved one, Fresh Harvest Box has got you covered.</p>
+                        <div class="image-desc">
+                            <p>fruit</p>
+                            <img src="./images/hero-section/tropical-watermelon.png" alt="watermelon" class="hero-fruit" width="200" height="172">
+                            <p class="text-cap">
+                                Refreshing and juicy,<br>
+                                watermelon is the <br>
+                                perfect summer treat <br>
+                                and a great source of <br>
+                                hydration
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hero-right">
+                        <ul class="hero-list list">
+                            <li><button class="hero-label">#organic</button></li>
+                            <li><button class="hero-label">#products</button></li>
+                            <li><button class="hero-label">#basket</button></li>
+                            <li><button class="hero-label">#fruits</button></li>
+                        </ul>
+                        <div class="image-desc">
+                            <p>fruit</p>
+                            <img src="./images/hero-section/strawberry-basket.png" alt="strawberry" class="hero-fruit" width="200" height="172">
+                            <p class="text-cap">
+                                Refreshing and juicy,<br>
+                                watermelon is the <br>
+                                perfect summer treat <br>
+                                and a great source of <br>
+                                hydration
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-easy-steps section" id="how-it-work">
+                <p class="section-step-title">
+                    To order your fruit basket, simply follow these easy steps
+                </p>
+                <p class="section-step-desc">
+                    Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home. Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.
+                </p>
+                <div class="section-step-card">
+                    <ul class="section-step-list list">
+                        <li class="section-easy-step-card">
+                            <span><button type="button" class="button-card">First Step</button></span>
+                            <p class="card-desc">
+                                Just choose the fruit you want to order by clicking on the checkboxes next to it.
+                            </p>
+                        </li>
+                        <li class="section-easy-step-card">
+                            <span><button type="button" class="button-card">Second Step</button></span>
+                            <p class="card-desc">
+                                Click on the basket and fill out the form.
+                            </p>
+                        </li>
+                        <li class="section-easy-step-card">
+                            <span><button type="button" class="button-card">Third Step</button></span>
+                            <p class="card-desc">
+                                Sit back and relax! Your fresh fruit basket will be delivered.
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="section-slideshow">
+                        <img src="./images/section-1/how-order.gif" alt="Group In Frames" class="slideshow-gif"
+                        >
+                    </div>
+                </div>
+            </section>
+            <section class="section-product section">
+                <div class="product-text">
+                <p class="product-title text-cap">
+                    oRGANIC fRUITS
+                </p>
+                <p class="product-detail">
+                    Our organic fruits are hand-picked from local farms and delivered straight to your doorstep, ensuring that you get the freshest and most nutritious produce possible. We offer a wide selection of organic fruits grown without the use of harmful pesticides or chemicals.
+                </p>
+                </div>
+                <div class="product-box">
+                    
+                </div>
+            </section>
+            <section>
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    
+    <script src="./js/mobile-menu.js"></script>
+
+
+    <!-- swiper container  -->
+    <swiper-container 
+    class="swiper mySwiper"
+    slides-per-view="1" 
+    speed="500" 
+    keyboard="true" 
+    pagination="true"
+    >
+        <!-- swiper slider items -->
+             <swiper-slide>
+            <img 
+            src="./images/young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink-background-1.jpg" 
+            srcset="
+                ./images/young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink-background-1.jpg 1x,
+                ./images/young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink-background-1@2x.jpg 2x"
+            alt=""
+            >
+        </swiper-slide>
+      <swiper-slide>Slide 2</swiper-slide>
+      <swiper-slide>
+        <img src="./images/young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink-background 1.jpg" alt="">
+      </swiper-slide>
+      <swiper-slide>Slide ...</swiper-slide>
+    </swiper-container>
+    <div class="swiper-pagination"></div>
+    <button class="btn-prev">prev</button>
+    <button class="btn-next">next</button> 
+
+        <div class="sample-class"></div>
+
+    <!-- swiper js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    
+    <script>
+
+        // this query is fetch the element
+        const swiperEl = document.querySelector('swiper-container');
+        const buttonNext = document.querySelector('.btn-next');
+        const buttonPrev = document.querySelector('.btn-prev');
+        
+        // addEventListener next button
+        buttonNext.addEventListener('click', () => {
+          swiperEl.swiper.slideNext();
+        })
+
+        // addEventListener previous button
+        buttonPrev.addEventListener('click', () => {
+          swiperEl.swiper.slidePrev();
+        });
+        // end script
+
+    </script>
+    <script>
+    const swiperEr = document.querySelector('swiper-container');
+    const  byNumber = document.querySelector('.sample-class');
+    var numCount = swiperEr.activeIndex;
+    let index_currentSlide = swiperEr.swiper.realIndex;
+    let currentSlide = swiperEr[index_currentSlide];
+
+
+    swiperEr.addEventListener('progress', (event) => {
+        const [swiper, progress] = event.detail;
+    });
+    swiperEr.addEventListener('slidechange', (event) => {
+            byNumber.innerHTML = '0'+swiperEl.swiper.activeIndex;
+    });
+    </script>
+</body>
+</html>

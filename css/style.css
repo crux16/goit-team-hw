@@ -1,0 +1,64 @@
+:root {
+    --black-color: #000;
+    --hotpink-color: #AE1332;
+    --freshgreen-color: #A4CB66;
+    --yellow-color: #F5CE13;
+    --white-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p { margin: 0;}
+html { box-sizing: border-box;}
+*,*::after,*::before { box-sizing: inherit;}
+img { display: block; max-width: 100%; height: auto;}
+.list { list-style: none; padding: 0; margin: 0;}
+.link { text-decoration: none; color: currentColor;}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.10);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%) clip rect(0 0 0 0) overflow hidden
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding: 0 32px;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 1280px;
+    }
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.text-cap {
+    text-transform: uppercase;
+}
+
+.icon {
+    fill: currentColor;
+    stroke: currentColor;
+}
